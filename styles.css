@@ -1,0 +1,110 @@
+@font-face {
+  font-family: cursed-timer;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body{
+    width: 600px;
+    margin: auto;
+}
+
+#scoreboard {
+    background-color: #065F46;
+    width: 575px;
+    height: 385px;
+    border: 1px solid black;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 575px;
+    height: 250px;
+    align-items: center;
+    padding: 40px 0px 25px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.home-guest {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 35.9px;
+    text-align: center;
+    font-size: 40px;
+    margin: 15px auto 20px;
+    padding: 0px 0px;
+    height: 36px;
+    width: 149px;
+    color: white;
+}
+
+.score {
+    font-family: cursed-timer;
+    text-align: center;
+    color: #F43F5E;
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    line-height: 126.7px;
+    justify-content: center;
+    margin: 5px auto 10px;
+    padding: 0px;
+}
+
+.points-container {
+    width: 155px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.points {
+    height: 45px;
+    width: 45px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: cursed-timer;
+    line-height: 27.8px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: green;
+}
+
+.points:hover {
+    height: 50px;
+    width: 50px;
+}
+
+#reset-btn:hover {
+    height: 35px;
+    width: 125px;
+}
+
+#reset-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reset-btn {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: #BE123C;
+    padding: 3px;
+    margin: 10px;
+}
